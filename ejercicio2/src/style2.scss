@@ -1,0 +1,46 @@
+@use "./temaB" as theme;
+
+.box-theme {
+  width: 150px;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid grey;
+  font-family: theme.$principal-font;
+  font-size: 1.5rem;
+}
+
+.base {
+  background-color: theme.$base-color;
+  border-radius: theme.$border-radius theme.$border-radius 0 0;
+}
+
+.important {
+  background-color: theme.$important-color;
+}
+
+.warning {
+  background-color: theme.$warning-color;
+  border-radius: 0 0 theme.$border-radius theme.$border-radius;
+}
+
+.principal-font {
+  font-family: theme.$principal-font;
+  font-size: 1.4rem;
+}
+
+.secondary-font {
+  font-family: theme.$secondary-font;
+  font-size: 1.4rem;
+}
+
+.shadow-box {
+  width: 120px;
+  padding: 20px;
+  margin-top: 30px;
+  border: 1px solid grey;
+  background-color: white;
+  box-shadow: theme.$box-shadow;
+  border-radius: theme.$border-radius;
+  font-family: theme.$principal-font;
+  font-size: 1.4rem;
+}

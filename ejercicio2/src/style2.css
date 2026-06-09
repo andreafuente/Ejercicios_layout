@@ -1,0 +1,46 @@
+.box-theme {
+  width: 150px;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid grey;
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+}
+
+.base {
+  background-color: blue;
+  border-radius: 6px 6px 0 0;
+}
+
+.important {
+  background-color: #120066;
+}
+
+.warning {
+  background-color: #68eeee;
+  border-radius: 0 0 6px 6px;
+}
+
+.principal-font {
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+}
+
+.secondary-font {
+  font-family: "Times New Roman", serif;
+  font-size: 1.4rem;
+}
+
+.shadow-box {
+  width: 120px;
+  padding: 20px;
+  margin-top: 30px;
+  border: 1px solid grey;
+  background-color: white;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 6px;
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+}
+
+/*# sourceMappingURL=style2.css.map */
