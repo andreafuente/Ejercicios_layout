@@ -30,6 +30,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .box {
@@ -38,8 +39,13 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
-  color: #fff;
+  flex: 1;
+  color: grey;
+}
+
+.base-color {
+  color: white;
+  flex: 1.5;
 }
 
 .container-1 .base-color {
@@ -124,4 +130,6 @@ h2 {
 }
 .container-3 .lighten-4 {
   background-color: rgb(209.304, 244.696, 224.312);
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
