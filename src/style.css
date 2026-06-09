@@ -1,1 +1,127 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #fefefe;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Ejercicio 1 */
+[class^=container-] {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: #fff;
+}
+
+.container-1 .base-color {
+  background-color: #e74c3c;
+}
+.container-1 .darken-1 {
+  background-color: rgb(213.698630137, 43.8356164384, 26.301369863);
+}
+.container-1 .lighten-1 {
+  background-color: rgb(236.5890410959, 117.6849315068, 105.4109589041);
+}
+.container-1 .darken-2 {
+  background-color: rgb(168.2876712329, 34.5205479452, 20.7123287671);
+}
+.container-1 .lighten-2 {
+  background-color: rgb(242.1780821918, 159.3698630137, 150.8219178082);
+}
+.container-1 .darken-3 {
+  background-color: rgb(122.8767123288, 25.2054794521, 15.1232876712);
+}
+.container-1 .lighten-3 {
+  background-color: rgb(247.7671232877, 201.0547945205, 196.2328767123);
+}
+.container-1 .darken-4 {
+  background-color: rgb(77.4657534247, 15.8904109589, 9.5342465753);
+}
+.container-1 .lighten-4 {
+  background-color: rgb(253.3561643836, 242.7397260274, 241.6438356164);
+}
+
+.container-2 .base-color {
+  background-color: #5457C3;
+}
+.container-2 .darken-1 {
+  background-color: rgb(59.2207792208, 62.1818181818, 168.7792207792);
+}
+.container-2 .lighten-1 {
+  background-color: rgb(121.7532467532, 124.0909090909, 208.2467532468);
+}
+.container-2 .darken-2 {
+  background-color: rgb(45.974025974, 48.2727272727, 131.025974026);
+}
+.container-2 .lighten-2 {
+  background-color: rgb(159.5064935065, 161.1818181818, 221.4935064935);
+}
+.container-2 .darken-3 {
+  background-color: rgb(32.7272727273, 34.3636363636, 93.2727272727);
+}
+.container-2 .lighten-3 {
+  background-color: rgb(197.2597402597, 198.2727272727, 234.7402597403);
+}
+.container-2 .darken-4 {
+  background-color: rgb(19.4805194805, 20.4545454545, 55.5194805195);
+}
+.container-2 .lighten-4 {
+  background-color: rgb(235.012987013, 235.3636363636, 247.987012987);
+}
+
+.container-3 .base-color {
+  background-color: #2ecc71;
+}
+.container-3 .darken-1 {
+  background-color: rgb(36.616, 162.384, 89.948);
+}
+.container-3 .lighten-1 {
+  background-color: rgb(84.456, 216.544, 140.468);
+}
+.container-3 .darken-2 {
+  background-color: rgb(27.232, 120.768, 66.896);
+}
+.container-3 .lighten-2 {
+  background-color: rgb(126.072, 225.928, 168.416);
+}
+.container-3 .darken-3 {
+  background-color: rgb(17.848, 79.152, 43.844);
+}
+.container-3 .lighten-3 {
+  background-color: rgb(167.688, 235.312, 196.364);
+}
+.container-3 .darken-4 {
+  background-color: rgb(8.464, 37.536, 20.792);
+}
+.container-3 .lighten-4 {
+  background-color: rgb(209.304, 244.696, 224.312);
+}/*# sourceMappingURL=style.css.map */
