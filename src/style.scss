@@ -45,17 +45,15 @@ h2 {
 }
 
 $color-Error: #e74c3c;
-$color-primary: #5457C3;
+$color-primary: #5457c3;
 $color-ok: #2ecc71;
 
 @mixin generate-palette($base-color) {
-
   .base-color {
     background-color: $base-color;
   }
 
   @for $i from 1 through 4 {
-
     .darken-#{$i} {
       background-color: darken($base-color, $i * 10%);
     }
@@ -66,19 +64,63 @@ $color-ok: #2ecc71;
   }
 }
 .container-1 {
-
   @include generate-palette($color-Error);
-
 }
 
 .container-2 {
-
   @include generate-palette($color-primary);
-
 }
 
 .container-3 {
-
   @include generate-palette($color-ok);
+}
 
+/* Ejercicio 3 */
+$menu-color: #317588;
+$menu-hover: #3c5164;
+$text-color: white;
+
+.container-nav {
+  min-height: 50px;
+  margin: 10px 0;
+  padding: 0;
+  background-color: $menu-color;
+
+  ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    flex: 1;
+  }
+
+  a {
+    display: block;
+    padding: 20px;
+
+    color: $text-color;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $menu-hover;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .container-nav {
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      width: 100%;
+    }
+  }
 }
