@@ -169,5 +169,52 @@ h2 {
     width: 100%;
   }
 }
+/* Ejercicio 4 */
+.card {
+  width: 320px;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto auto;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.card .card-image {
+  width: 100%;
+  display: block;
+}
+.card .card-title {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.card .card-description {
+  margin: 0;
+  padding: 0 20px;
+  line-height: 1.5;
+  color: #444;
+}
+.card .card-date {
+  margin: 0;
+  padding: 0 20px;
+  text-align: right;
+}
+.card .card-date .time {
+  color: #9acd32;
+}
+.card .card-button {
+  margin: 0 20px;
+  padding: 10px;
+  border: none;
+  background-color: #9acd32;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+}
+.card .card-button:hover {
+  background-color: #84b82b;
+}
 
 /*# sourceMappingURL=style.css.map */
